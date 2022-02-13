@@ -9,7 +9,7 @@ deadline = dt.strptime(dealine, "%d-%m-%Y")
 tody_dte = dt.today()
 time_rem = deadline - tody_dte
 # validating values entered by user..
-if time_rem.days <= 3:
+if time_rem.days <= 3
     print(f"You Still have {int(time_rem.total_seconds() / 60 / 60)} hours to {goal_var} deadline. Do Your best ^_^")
 elif time_rem.days <= 30:
     print(f"You Still have {time_rem.days} days to {goal_var} deadline. Do Your best ^_^")
